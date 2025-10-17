@@ -1,0 +1,14 @@
+empty=true len=0
+peek: error, stack is empty, cannot access the top
+pop: error, stack is empty, avoiding underflow
+top=4 len=4
+after RIGHT top=3 len=4
+after LEFT top=4 len=4
+peek before pop=4
+top after pop=3 len=3
+copy ctor top=3 len=3
+t top after push=99 len=4
+s top unchanged=3 len=3
+assign u top=3 len=3
+u empty=true len=0
+peek: error, stack is empty, cannot access the top
